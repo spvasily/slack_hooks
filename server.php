@@ -41,10 +41,6 @@ if($inToken == $myToken){
 			case 'date':		$res = "$seconWord for $inUser: ".date("F j, Y, g:i a"); Break;
 			case 'holidays':	$res = "Holidays for $inUser: \n".GetHolidays(); Break;
 			case 'stock':		$res = "Stock info for $inUser: \n".GetStock(); Break;
-		
-			case 'fuck':
-			case 'FUCK':
-			case 'blowjob':		$res = "Warning! Faggots in chat!"; Break;
 			case 'money':
 			case 'power':
 			case 'something':	$res = "come on, dude.. I can't do it"; Break;
